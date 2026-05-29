@@ -1,8 +1,10 @@
-# Fifa-World-Cup-Analysis
-## Dataset Notes
+# FIFA World Cup Analytics
 
-### results.csv
-- Contains international football match results
-- Includes home team and away team
-- Includes scores
-- Includes tournament names
+A football analytics and prediction project using:
+- Python
+- Pandas
+- SQL
+- Power BI
+- Machine Learning
+
+This project analyzes historical international football data and explores tournament prediction possibilities.
