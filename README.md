@@ -1,6 +1,6 @@
 # FIFA World Cup Analytics
 
-A football analytics and prediction project using:
+# A football analytics and prediction project using:
 - Python
 - Pandas
 - SQL
