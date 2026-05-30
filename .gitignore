@@ -1,0 +1,11 @@
+# Data files - too large for GitHub
+data/raw/
+data/cleaned/
+data/*.db
+
+# Python virtual environment
+FIFA.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
