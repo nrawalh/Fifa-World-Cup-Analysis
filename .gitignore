@@ -9,3 +9,4 @@ FIFA.venv/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 __pycache__/
+models/
