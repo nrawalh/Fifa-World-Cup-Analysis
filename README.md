@@ -15,8 +15,6 @@ The project combines data cleaning, exploratory data analysis, feature engineeri
 * NumPy
 * SQL
 * Scikit-Learn
-* XGBoost
-* Optuna
 * SHAP
 * Tableau
 * Git & GitHub
@@ -77,22 +75,20 @@ The project combines data cleaning, exploratory data analysis, feature engineeri
 
 The prediction engine uses:
 
-* XGBoost Classifier
-* Hyperparameter Optimization with Optuna
 * SHAP Explainability
 * Monte Carlo Tournament Simulation
 
-The model estimates each nation's probability of winning the 2026 FIFA World Cup.
+The model estimates each nation's probability of winning the 2026 FIFA World Cup, with Argentina predicted most likely WC 2026 winner at 21.35% probability across 10,000 simulations and France ranked 2nd at 19.35%
 
 ---
 
 ## Key Outputs
 
-* Historical World Cup Insights
-* Team Consistency Analysis
-* Attendance Trends
-* Confederation Strength Analysis
-* 2026 World Cup Winner Probabilities
+* Historical World Cup Insights - https://public.tableau.com/app/profile/nellay.rawalh/viz/FIFA-WorldcupAnalysis/WorldCupDashboardFIFAAnalysis?publish=yes
+* Team Top 4 Consistency Analysis - https://public.tableau.com/app/profile/nellay.rawalh/viz/FIFA-WorldcupAnalysis/FIFAWorldCupTop4ConsistencyAnalysis?publish=yes
+* Attendance Trends - https://public.tableau.com/app/profile/nellay.rawalh/viz/FIFA-WorldcupAnalysis/WorldCupAttendanceFanEngagement?publish=yes
+* Global Football Power Balance - https://public.tableau.com/app/profile/nellay.rawalh/viz/FIFA-WorldcupAnalysis/Dashboard-GlobalFootballPowerBalance?publish=yes
+* 2026 World Cup Winner Probabilities - https://public.tableau.com/app/profile/nellay.rawalh/viz/FIFA-WorldcupAnalysis/DASHBOARD-FIFAWorldCup2026PredictionEngine?publish=yes
 
 ---
 
