@@ -86,12 +86,18 @@ The project combines data cleaning, exploratory data analysis, feature engineeri
 
 ## Machine Learning Model
 
-The prediction engine uses:
+The prediction engine uses a **match level classifier** trained on 43,000+ historical international matches (2006–2023).
 
-* SHAP Explainability
-* Monte Carlo Tournament Simulation
+**Models trained and compared:**
+- Logistic Regression (baseline)
+- Random Forest Classifier
+- HistGradientBoosting Classifier *(final model)*
 
-The model estimates each nation's probability of winning the 2026 FIFA World Cup, with Argentina predicted most likely WC 2026 winner at 21.35% probability across 10,000 simulations and France ranked 2nd at 19.35%
+**Evaluation:** 5-fold stratified cross-validation with F1 Macro scoring
+
+**Simulation:** 10,000 Monte Carlo bracket runs simulating the complete WC 2026 tournament group stage through final match by match, using model-predicted win/draw/loss probabilities for every fixture.
+
+**Explainability:** SHAP values show which features drive each team's predicted win probability.
 
 ---
 
