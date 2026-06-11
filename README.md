@@ -117,8 +117,8 @@ Data/
 Notebooks/
 assets/
 Dashboards/
-README.md
 requirements.txt
+README.md
 
 ---
 
