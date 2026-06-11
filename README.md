@@ -25,7 +25,20 @@ The project combines data cleaning, exploratory data analysis, feature engineeri
 
 1. Data Collection
 2. Data Cleaning (SQL + Python)
-3. Exploratory Data Analysis
+3. Exploratory Data Analysis - ## Key Findings
+
+# Historical Analysis (1930–2022)
+- **Brazil, Germany and Italy** account for **62% of all World Cup titles** across 22 tournaments
+- **Host nations** have won the tournament **27% of the time** but **73% of hosts** reached at least the quarter-finals, confirming a clear home advantage
+- **Goals per game peaked at 5.38 in 1954** and have declined to a modern average of 2.5, reflecting the evolution of defensive tactics
+- **CONMEBOL and UEFA** have won **100% of all World Cups** despite CAF (Africa) having 54 member nations, no African team has ever won
+- Home win rate across all international matches is **~46%**, dropping to ~40% at neutral WC venues
+- Being ranked **#1 by FIFA before the tournament** does not reliably predict the winner upsets are statistically common
+
+# WC 2026 Prediction (Monte Carlo Simulation)
+- **Argentina** is the predicted most likely winner at **21.35% probability** across 10,000 simulations
+- **France** ranks 2nd at **19.35%**
+- The model uses match-level prediction trained on 43,000+ historical international matches, simulating the complete 48-team bracket match by match
 4. Historical World Cup Insights
 5. Feature Engineering
 6. Machine Learning Model Development
